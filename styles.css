@@ -20,6 +20,10 @@ a {
     color: white;
 }
 
+h2 {
+    font-weight: 900;
+}
+
 .navbar {
     background-color: #1F2937;
 }
@@ -93,9 +97,104 @@ a {
 
 .section .container-info{
     text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
 }
 
 .section .container-info .card{
     display: flex;
     justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    align-items: center;
+}
+
+.section .container-info .title{
+    padding-top: 20px;
+}
+
+.card .info img{
+    height: 150px;
+    width: 250px;
+    border-radius: 6px;
+}
+
+.card .info div{
+    padding-top: 20px;
+}
+
+
+.section .container-quote{
+    display: flex;
+    background-color: #E5E7EB;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.section .container-quote .quote {
+    font-size: x-large;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+.section .container-quote .quote p{
+    padding-top: 8px;
+    font-size: 20px;
+    text-align: end;
+    font-weight: bold;
+}
+
+.section .container-sign{
+    height: 350px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+}
+
+.section .container-sign .box{
+    display: flex;
+    background-color: #3882F6;
+    padding: 40px 100px;
+    border-radius: 6px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section .container-sign .box button{
+    padding: 0;
+    color: white;
+    border: solid white;
+    border-radius: 6px;
+    background-color: #3882F6;
+    margin-left: 50px;
+    padding: 3px 15px 3px;
+    align-items: center;
+}
+
+.section .container-sign .box .title{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer{
+    text-align: center;
+
+    padding: 30px;
+    background-color: #1F2937;
+}
+
+.footer .container{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
 }
