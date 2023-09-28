@@ -200,6 +200,8 @@ h2 {
     margin-left: 50px;
     padding: 3px 15px 3px;
     align-items: center;
+    flex-shrink: 0;
+    
 }
 
 .section .container-sign .box .title{
