@@ -219,3 +219,32 @@ h2 {
     margin-right: 200px; */
     color: white;
 }
+
+/* Apply padding for screens wider than 950px */
+@media only screen and (min-width: 951px) {
+    .header .container {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+/* Remove the padding for screens 950px and below */
+/* @media only screen and (max-width: 950px) {
+    .header .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+} */
+
+/* Remove the padding for screens 600px and below */
+/* @media only screen and (max-width: 600px) {
+    .header .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+} */
+
+
+
+
+
