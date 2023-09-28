@@ -32,8 +32,8 @@ h2 {
     display: flex;
     padding: 20px;
     justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
     color: white;
 
 }
@@ -49,13 +49,15 @@ h2 {
 }
 
 .header .container{
-    margin-left: 200px;
-    margin-right: 200px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    padding: 50px 200px 50px;
     display: flex;
-    padding: 50px 20px 50px;
+    /* padding: 50px 20px 50px; */
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 
 }
 
@@ -63,11 +65,15 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    flex-basis: 4%;
+    flex-grow: 2;
     /* margin-bottom: 80px; */
 
 }
 
 .header img{
+    /* width: 300px; */
+    /* height: 200px; */
     width: 300px;
     height: 200px;
     border-radius: 6px;
@@ -102,6 +108,10 @@ h2 {
     /* justify-content: center; */
     /* align-items: center; */
     /* height: 350px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* flex-basis: 200px; */
 }
 
 .section .container-info .card{
@@ -139,18 +149,20 @@ h2 {
 .section .container-quote{
     display: flex;
     background-color: #E5E7EB;
-    height: 350px;
+    /* height: 350px; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 100px;
 
 }
 
 .section .container-quote .quote {
     font-size: x-large;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    text-align: center;
     
 }
 .section .container-quote .quote p{
@@ -161,12 +173,12 @@ h2 {
 }
 
 .section .container-sign{
-    height: 350px;
+    padding: 100px;
     display: flex;
     justify-content: center ;
     align-items: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
     color: white;
 }
 
@@ -203,7 +215,7 @@ h2 {
 }
 
 .footer .container{
-    margin-left: 200px;
-    margin-right: 200px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
     color: white;
 }
